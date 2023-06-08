@@ -1,0 +1,36 @@
+색상에 관한 것, goto2xy
+
+하트를 먹으면 그 부분과 뒷부분이 사라짐
+
+
+// 레인보우 코드
+		//if (rainbowAniCool - startTime > 100) {
+		//	for (int i = 0; i < 9; i++) {
+		//		int col = PURPLE;
+		//		switch (i - rainbowIndex) {
+		//			case 0 : col = PURPLE; break;
+		//			case 1 : 
+		//			case -8 : col = RED; break;
+		//			case 2 : 
+		//			case -7 : col = YELLOW; break;
+		//			case 3 : 
+		//			case -6 : col = GREEN; break;
+		//			case 4 : 
+		//			case -5 : col = CYAN; break;
+		//			case 5 : 
+		//			case -4 : col = BLUE; break;
+		//			case 6 : 
+		//			case -3 : col = DARK_BLUE; break;
+		//			case 7 : 
+		//			case -2 : col = DARK_GRAY; break;
+		//			case 8 : 
+		//			case -1 : col = DARK_PURPLE; break;
+		//		}
+		//		color(col);
+		//		gotoxy(WIDTH - 9 + i*2, HEIGHT / 2 - 2);
+		//		printf(titleText[i*2]);
+		//	}
+
+		//	rainbowAniCool = 0;
+		//	rainbowIndex = rainbowIndex == 8 ? 0 : rainbowIndex + 1;
+		//}
